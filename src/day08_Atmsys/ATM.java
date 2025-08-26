@@ -329,7 +329,7 @@ public class ATM {
             } else {
                 System.out.println("您的账号存在余额，无法注销。");
                 return false;
-            }
+            }                          
         } else {
             System.out.println("好的，您的账户保留！！");
             return false;
