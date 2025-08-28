@@ -1,4 +1,4 @@
-package designPatterns.singleton.eagerSingleton;
+package designPatterns.singleton;
 
 /*
  * 懒汉式单例模式：要对象时，对象才创建(延迟加载对象)

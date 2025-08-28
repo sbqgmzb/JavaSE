@@ -1,4 +1,4 @@
-package designPatterns.singleton.eagerSingleton;
+package designPatterns.singleton;
 
 //设计模式：
 //单例模式：指一个类只有一个实例，且该类能自行创建这个实例的一种模式。

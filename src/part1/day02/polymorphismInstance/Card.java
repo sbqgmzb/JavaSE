@@ -1,4 +1,4 @@
-package part1.day02.polymorphismTest;
+package part1.day02.polymorphismInstance;
 
 /**
  * 父类：卡片类
