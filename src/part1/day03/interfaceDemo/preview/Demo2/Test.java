@@ -1,21 +1,25 @@
 package part1.day03.interfaceDemo.preview.Demo2;
 
-import java.util.ArrayList;
-
 public class Test {
     public static void main(String[] args) {
-        Student s1 = new Print("张三", '男',98.3);
-        Student s2 = new Print("李四", '女',108.3);
-        Student s3 = new Print("王五", '男',120);
-        ArrayList<Student> students = new ArrayList<>();
-        students.add(s1);
-        students.add(s2);
-        students.add(s3);
-        System.out.println("该班级的所有成员信息：");
-        for (Student student : students) {
-            Print print=(Print) student;
-            print.printInform();
-            print.average();
-        }
+        Student[] students = new Student[10];
+        students[0] = new Student("John", 'M', 90);
+        students[1] = new Student("Jane", 'F', 80);
+        students[2] = new Student("Jack", 'M', 70);
+        students[3] = new Student("Jill", 'M', 60);
+        students[4] = new Student("Bob", 'M', 50);
+        students[5] = new Student("Bob", 'M', 40);
+        students[6] = new Student("Bob", 'M', 30);
+        students[7] = new Student("Bob", 'M', 20);
+        students[8] = new Student("Bob", 'M', 10);
+        students[9] = new Student("Bob", 'M', 10);
+        IClassDataInter cdi=new PrintInform1(students);
+        cdi.printAllInform();
+        cdi.printAverageScore();
+        IClassDataInter cdi1=new PrintInform2(students);
+        cdi1.printAllInform();
+        cdi1.printAverageScore();
+
     }
 }
+

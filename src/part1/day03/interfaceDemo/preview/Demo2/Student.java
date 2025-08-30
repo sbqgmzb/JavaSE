@@ -5,7 +5,10 @@ public class Student {
     private char gender;
     private double score;
 
-    public Student(String name,char gender,double score) {
+    public Student() {
+    }
+
+    public Student(String name, char gender, double score) {
         this.score = score;
         this.gender = gender;
         this.name = name;
