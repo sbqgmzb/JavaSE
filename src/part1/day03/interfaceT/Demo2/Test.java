@@ -1,4 +1,4 @@
-package part1.day03.interfaceT.preview.Demo2;
+package part1.day03.interfaceT.Demo2;
 
 public class Test {
     public static void main(String[] args) {
