@@ -1,4 +1,4 @@
-package part1.day03.tips;
+package part1.day03.interfaceT.tips;
 
 //4.一个类实现多个接口，如果多个接口存在同名的默认方法，可以不冲突，这个类重写该方法即可
 interface A3{
