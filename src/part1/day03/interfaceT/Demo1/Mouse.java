@@ -1,4 +1,4 @@
-package part1.day03.interfaceDemo.homework.Demo1;
+package part1.day03.interfaceT.Demo1;
 
 public class Mouse implements IUsb {
 

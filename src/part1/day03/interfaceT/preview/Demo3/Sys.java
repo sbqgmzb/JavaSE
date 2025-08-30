@@ -1,4 +1,4 @@
-package part1.day03.interfaceDemo.preview.Demo3;
+package part1.day03.interfaceT.preview.Demo3;
 
 public class Sys {
     public void openApp(){
