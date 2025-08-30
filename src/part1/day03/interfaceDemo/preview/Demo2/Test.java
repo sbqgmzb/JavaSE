@@ -12,7 +12,7 @@ public class Test {
         students[6] = new Student("Bob", 'M', 30);
         students[7] = new Student("Bob", 'M', 20);
         students[8] = new Student("Bob", 'M', 10);
-        students[9] = new Student("Bob", 'M', 10);
+        students[9] = new Student("enid", 'F', 100);
         IClassDataInter cdi=new PrintInform1(students);
         cdi.printAllInform();
         cdi.printAverageScore();
